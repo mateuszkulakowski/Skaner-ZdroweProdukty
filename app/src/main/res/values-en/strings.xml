@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZdroweProdukty</string>
+    <string name="skanuj">Scan</string>
+    <string name="AnulowanieSkanowania">You canceled scanning!</string>
+    <string name="Składnikiiichwpływ">Ingredients and their influence</string>
+    <string name="Producent">Producent</string>
+    <string name="Składniki">Ingredients</string>
+    <string name="Rodzaj">Type</string>
+    <string name="rodzaj_negatywny">Negative</string>
+    <string name="rodzaj_obojetny">Neutral</string>
+    <string name="rodzaj_pozytywny">Positive</string>
+    <string name="nazwa">Name</string>
+    <string name="opis">Description</string>
+    <string name="wróć">Back</string>
+    <string name="edytuj">Edit</string>
+    <string name="usun">Delete</string>
+    <string name="wpływ">Infuence</string>
+    <string name="DodajSkladnikWplyw">Add Ingredient</string>
+    <string name="dodaj">Add</string>
+    <string name="dodaj_produkt">Add product</string>
+    <string name="skladniki_produktu">Ingredients product:</string>
+    <string name="brak_produktu">Lack of product!</string>
+    <string name="okreslone_skladniki">Found indegrients</string>
+    <string name="dodaj_producenta">Add producent</string>
+    <string name="nazwa_producenta">Name of producent</string>
+    <string name="adres">Address</string>
+    <string name="logo">Logo</string>
+    <string name="brak_producenta">Product don\'t have a producent</string>
+    <string name="obrazek">Picture</string>
+    <string name="brak_wykrytych_skladnikow">Don\'t find any ingredients</string>
+    <string name="wykryte_skladniki">Found indegrients</string>
+</resources>

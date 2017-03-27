@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_szczegoly_skladniki_wplyw"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="mateusz.activities.SzczegolySkladnikiWplyw">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2">
+            <TextView
+                android:text="@string/nazwa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:textSize="24sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="viewStart" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/nazwa" />
+
+            <TextView
+                android:text="@string/Rodzaj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:layout_weight="0.00"
+                android:textSize="24sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="viewStart" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/rodzaj"
+                android:layout_weight="0.00" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="6">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/napisobrazek"
+                android:text="@string/wpływ"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                android:textSize="14sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/obrazek"
+                android:adjustViewBounds="false"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/opis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/opis"
+        android:layout_weight="0.01"
+        android:maxLines = "20"
+        android:scrollbars = "vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:text="@string/wróć"
+            android:layout_width="match_parent"
+            android:layout_weight="0.33"
+            android:layout_height="wrap_content"
+            android:id="@+id/wroc" />
+
+        <Button
+            android:text="@string/edytuj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edytuj"
+            android:layout_weight="0.33"/>
+
+        <Button
+            android:text="@string/usun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/usun"
+            android:layout_weight="0.33"/>
+    </LinearLayout>
+
+</LinearLayout>

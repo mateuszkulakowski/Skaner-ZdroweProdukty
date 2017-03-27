@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dodaj_producenta"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="mateusz.activities.DodajProducenta">
+
+
+    <TextView
+        android:text="@string/nazwa_producenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:textSize="30sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/nazwa" />
+
+    <TextView
+        android:text="@string/adres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView13"
+        android:textSize="30sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/adres"
+        android:maxLines="3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:text="@string/wróć"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/wroc"
+            android:layout_weight="1"/>
+
+        <Button
+            android:text="@string/dodaj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dodaj"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

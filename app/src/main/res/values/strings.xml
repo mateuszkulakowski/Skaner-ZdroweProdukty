@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ZdroweProdukty</string>
+    <string name="skanuj">Skanuj</string>
+    <string name="AnulowanieSkanowania">Anulowano Skanowanie!</string>
+    <string name="Składnikiiichwpływ">Składniki i ich wpływ</string>
+    <string name="Składniki">Składniki</string>
+    <string name="Producent">Producent</string>
+    <string name="Rodzaj">Rodzaj</string>
+    <string name="DodajSkladnikWplyw">Dodaj Składnik</string>
+    <string name="rodzaj_pozytywny">Pozytywny</string>
+    <string name="rodzaj_obojetny">Obojętny</string>
+    <string name="rodzaj_negatywny">Negatywny</string>
+    <string name="nazwa">Nazwa</string>
+    <string name="opis">Opis</string>
+    <string name="wróć">Wróć</string>
+    <string name="edytuj">Edytuj</string>
+    <string name="usun">Usuń</string>
+    <string name="wpływ">Wpływ</string>
+    <string name="dodaj">Dodaj</string>
+    <string name="dodaj_produkt">Dodaj produkt</string>
+    <string name="skladniki_produktu">Składniki produktu:</string>
+    <string name="brak_produktu">Brak produktu!</string>
+    <string name="okreslone_skladniki">Znalezione składniki</string>
+    <string name="dodaj_producenta">Dodaj producenta</string>
+    <string name="nazwa_producenta">Nazwa producenta</string>
+    <string name="adres">Adres</string>
+    <string name="logo">Logo</string>
+    <string name="brak_producenta">Brak producenta!</string>
+    <string name="obrazek">Obrazek</string>
+    <string name="brak_wykrytych_skladnikow">Nie wykryto żadnych składników</string>
+    <string name="wykryte_skladniki">Wykryte składniki</string>
+    <string-array name="lista_rodzaj_skladnika">
+        <item>Pozytywny</item>
+        <item>Negatywny</item>
+        <item>Obojętny</item>
+    </string-array>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edytuj_produkt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="mateusz.activities.EdytujProdukt">
+
+    <TextView
+        android:text="@string/nazwa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="viewStart" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/nazwa" />
+
+    <TextView
+        android:text="@string/Składniki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:textStyle="normal|bold"
+        android:textSize="30sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/skladniki"
+        android:maxLines="15"
+        android:scrollbars="vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:text="@string/wróć"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/wroc"
+            android:layout_weight="1"/>
+
+        <Button
+            android:text="@string/edytuj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edytuj"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+</LinearLayout>

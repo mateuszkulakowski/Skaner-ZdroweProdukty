@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <Button
+        android:text="@string/dodaj_produkt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dodajprodukt" />
+
+    <TextView
+        android:text="@string/nazwa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nazwanaglowek"
+        android:textSize="24sp"
+        android:textAlignment="viewStart" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nazwacontent"
+        android:maxLines="2"/>
+
+    <TextView
+        android:text="@string/skladniki_produktu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/skladnikinaglowek"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/skladnikicontent"
+        android:layout_weight="0.67"
+        android:layout_marginTop="50dp"
+        android:maxLines="10"
+        android:scrollbars = "vertical"/>
+
+    <Button
+        android:text="@string/edytuj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edytuj" />
+
+    <Button
+        android:text="@string/usun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usun" />
+</LinearLayout>

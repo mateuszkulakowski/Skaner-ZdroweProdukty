@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mateusz.activities">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainMenu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Szczegoly" />
+        <activity android:name=".DodajProdukt" />
+        <activity android:name=".WszystkieSkladnikiWplyw" />
+        <activity android:name=".SzczegolySkladnikiWplyw" />
+        <activity android:name=".EdytujSkladnikWplyw" />
+        <activity android:name=".DodajSkladnikWplyw" />
+        <activity android:name=".EdytujProdukt" />
+        <activity android:name=".DodajProducenta" />
+        <activity android:name=".EdytujProducent"></activity>
+    </application>
+
+</manifest>
